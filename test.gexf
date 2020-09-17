@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2020-09-17">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="a" label="a">
+        <viz:color a="None" b="0" g="None" r="200" />
+        <viz:size value="200" />
+        <viz:position x="86" y="100" z="0" />
+      </node>
+      <node id="b" label="b">
+        <viz:color a="None" b="0" g="None" r="200" />
+        <viz:size value="200" />
+        <viz:position x="142" y="170" z="0" />
+      </node>
+      <node id="c" label="c">
+        <viz:color a="None" b="0" g="None" r="200" />
+        <viz:size value="200" />
+        <viz:position x="198" y="240" z="0" />
+      </node>
+      <node id="d" label="d">
+        <viz:color a="None" b="0" g="None" r="200" />
+        <viz:size value="200" />
+        <viz:position x="254" y="310" z="0" />
+      </node>
+      <node id="e" label="e">
+        <viz:color a="None" b="0" g="None" r="200" />
+        <viz:size value="200" />
+        <viz:position x="310" y="380" z="0" />
+      </node>
+    </nodes>
+    <edges />
+  </graph>
+</gexf>

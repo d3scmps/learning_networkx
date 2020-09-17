@@ -1,0 +1,7 @@
+*.csv
+.python-version
+*.png
+nouv_filtrage.py
+nouv_filtrage2.py
+*.gz
+*linux/
