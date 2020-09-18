@@ -13,9 +13,12 @@ def processing_file(file):
     with open(file) as f, open("fichier_filtre3.csv","w") as f2:
         file_content = csv.DictReader(f)
         #îd, retweeted_id, from__user_followercount
+        
         headers = file_content.fieldnames
+        print(type(headers))
         headers.append("sum_Rtfollowers")
         writer = csv.DictWriter(f2, fieldnames = headers)
+        writer.writeheader()
         tweets_o = []
         rt_o = []
         for row in file_content:

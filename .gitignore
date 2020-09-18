@@ -5,3 +5,6 @@ nouv_filtrage.py
 nouv_filtrage2.py
 *.gz
 *linux/
+.~lock.Fichie_filtre3.csv#
+correction.py
+division_temps.py

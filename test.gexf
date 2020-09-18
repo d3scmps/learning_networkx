@@ -6,29 +6,29 @@
   <graph defaultedgetype="directed" mode="static" name="">
     <nodes>
       <node id="a" label="a">
-        <viz:color a="None" b="0" g="None" r="200" />
-        <viz:size value="200" />
-        <viz:position x="86" y="100" z="0" />
+        <viz:color a="1.0" b="0" g="0" r="200" />
+        <viz:size value="17.0" />
+        <viz:position x="86.0" y="-33.0" z="0.0" />
       </node>
       <node id="b" label="b">
-        <viz:color a="None" b="0" g="None" r="200" />
-        <viz:size value="200" />
-        <viz:position x="142" y="170" z="0" />
+        <viz:color a="1.0" b="0" g="0" r="200" />
+        <viz:size value="27.0" />
+        <viz:position x="142.0" y="0.0" z="0.0" />
       </node>
       <node id="c" label="c">
-        <viz:color a="None" b="0" g="None" r="200" />
-        <viz:size value="200" />
-        <viz:position x="198" y="240" z="0" />
+        <viz:color a="1.0" b="0" g="0" r="200" />
+        <viz:size value="37.0" />
+        <viz:position x="198.0" y="240.0" z="0.0" />
       </node>
       <node id="d" label="d">
-        <viz:color a="None" b="0" g="None" r="200" />
-        <viz:size value="200" />
-        <viz:position x="254" y="310" z="0" />
+        <viz:color a="1.0" b="0" g="0" r="200" />
+        <viz:size value="47.0" />
+        <viz:position x="-25.4" y="150.0" z="0.0" />
       </node>
       <node id="e" label="e">
-        <viz:color a="None" b="0" g="None" r="200" />
-        <viz:size value="200" />
-        <viz:position x="310" y="380" z="0" />
+        <viz:color a="1.0" b="0" g="0" r="200" />
+        <viz:size value="57.0" />
+        <viz:position x="310.0" y="380.0" z="0.0" />
       </node>
     </nodes>
     <edges />

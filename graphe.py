@@ -14,21 +14,15 @@ G.add_node("c")
 G.add_node("d")
 G.add_node("e")
 
-
-
-
-
-print(G.nodes())
-
 # here for GEXF format, we will have to change attribute etc 
 c = 30
 u = 0
 for node in G.nodes():
     u += 1
     c+= int(50)
-    G.nodes[node]["viz"] = {"size":200} 
-    G.nodes[node]["viz"]["color"] = {"r": 200, "v": 0, "b" : 0}
-    G.nodes[node]["viz"]["position"] = {"x": c+6*u , "y": c + 20*u, "z" : 0}
+    G.nodes[node]["viz"] = {"size":1.0+0.2*c}   #FLOAT
+    G.nodes[node]["viz"]["color"] = {"r": 200, "g": 0, "b" : 0, "a" : 1.0} #INT BUT FLOAT FOR A
+    G.nodes[node]["viz"]["position"] = {"x": c+6*u , "y": c + 20*u, "z" : 0} # les valeurs sont toutes flaots
 
 #G.nodes[0] = {"size":54}nodes[0][“viz”] = {“size”: 54} 
 """
@@ -47,4 +41,8 @@ limits=plt.axis('on')
 ax1.tick_params(left=True, bottom=True, labelleft=True, labelbottom=True)
 
 f.savefig('graph.png',bbox_inches='tight')"""
+fig, ax = plt.subplots()
+nx.draw_networkx_nodes(G, ax=ax)
+
+ax.tick_params(left=True, bottom=True, labelleft=True, labelbottom=True)
 nx.write_gexf(G, "test.gexf")
